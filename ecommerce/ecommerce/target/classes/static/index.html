@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>E-Commerce Store</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <h1>My E-Commerce Store</h1>
+
+    <a href="cart.html" id="cart"> 🛒View Cart</a>
+
+</header>
+
+<main>
+
+    <div class="controls">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search products">
+
+        <select id="categorySelect">
+
+            <option value="">All Categories</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Clothing">Clothing</option>
+            <option value="Books">Books</option>
+
+        </select>
+
+        <select id="sortSelect">
+
+            <option value="">Sort by Price</option>
+            <option value="asc">Low to High</option>
+            <option value="desc">High to Low</option>
+
+        </select>
+
+    </div>
+
+    <div id="productsContainer"></div>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
